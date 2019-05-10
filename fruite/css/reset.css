@@ -1,0 +1,33 @@
+body{background: #dfefef;}
+.margin{width:90%;margin: auto;}
+
+#header{height: 100%;background: #e0e0e0;}
+#header .margin{overflow: hidden;}
+#header .logo{float: left;margin-right: 95px;}
+#header span{float: left;display: block;font: 28px/70px "";color: #128449;}
+
+#main{overflow: hidden;background: #fff;}
+#main form{width: 40%;float: left;font: 16px/2 "";padding: 50px 100px;}
+#main form label{font: 16px/40px "";width: 25%;text-align: right;display: block;float: left;margin: 10px;}
+#main form input{font: 16px/40px "";width: 70%;float: left;margin: 10px 0;}
+#main form input.read{width: 5%;margin-left: 150px;}
+#main form label.te{text-align: left;display: inline;margin: 0;}
+#main form input.btn{width: 40%;height: 50px;margin-left:200px;}
+#main .registered{width: 30%;float: right;}
+#main .registered .tologin{font: 12px/2 "";}
+#main .registered .tologin span{float: right;margin:20px;}
+#main .registered .tologin a{color: sandybrown;}
+#main .registered img{border-left: 2px solid #999;}
+
+
+
+
+
+
+
+
+
+
+
+footer{font: 12px/2 "";color: #999;text-align: center}
+footer .te{color: #128449;}

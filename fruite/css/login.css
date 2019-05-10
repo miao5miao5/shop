@@ -1,0 +1,36 @@
+body{background: #dfefef;}
+.margin{width:80%;margin: auto;}
+
+#header{height: 100%;background: #e0e0e0;}
+#header .margin{overflow: hidden;}
+#header .logo{float: left;margin-right: 95px;}
+#header span{float: left;display: block;font: 28px/70px "";color: #128449;}
+
+#main{height: 100%;height:100%;background: url(../images/login.jpg) no-repeat center;background-size: 100% 100%;}
+#main .margin{overflow: hidden;}
+#main .dl{width: 308px;height: 428px;border: 1px solid #e3e6e0;padding:  0 20px;background: rgba(255, 255, 255, .8);float: right;margin: 50px 0;}
+#main .dl .f-top{display: flex;justify-content: space-between;margin-top: 20px}
+#main .dl .f-top h3{font: 18px/60px "";color: #000;}
+#main .dl .f-top span{font: 12px/60px "";color: #878787;}
+#main .dl .f-top a{font: 12px/60px "";color: #008842;}
+
+#main .form input{width: 266px;height: 38px;border: 1px solid #c1c1c1;margin-bottom: 20px;}
+#main .form input.tel{background:url(../images/login-phone.png) no-repeat left;background-size: 38px 38px;padding-left: 38px;}
+#main .form input.pass{background:url(../images/login-pass.png) no-repeat left;background-size: 38px 38px;padding-left: 38px;}
+
+#main .form .rand{display: flex;}
+
+#main .form input.vcode{width:111px;background:url(../images/login-pass.png) no-repeat left;background-size: 38px 38px;padding-left: 38px;}
+#main .form .rand b{width: 58px;height: 38px;border: 1px solid #c1c1c1;}
+#main .form .rand span{font: 12px/38px "";color: #878787;}
+
+#main .form .forget{display: flex;justify-content: space-between;font: 12px/1 "";color: #878787;}
+#main .form .forget input{width: 13px;height: 13px;}
+#main .form .btn{background: #008842;width: 306px;height: 50px;font: 18px/50px "";color: #fff;}
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+html{background: #dfefef;width: 100%;}
+.margin{width:90%;margin: auto;}
+
+#top{width: 100%;height:100%;background: #dfefef;}
+#top .margin{display: flex;justify-content: space-between;}
+/* #top .t-left{} */
+#top .t-left span{font: 12px/2 "";margin-right: 10px;}
+#top .t-left b{font: 12px/2 "";color: #128449;}
+/* #top .t-right{} */
+/* #top .t-right p{float: left;} */
+/* #top .t-right .p{display: none;float: left;} */
+#top .t-right .p1{display: block;float: left;}
+#top .t-right .p2{display: none;float: left;font: 12px/2 "";margin: 0 8px;color: #000;}
+#top .t-right a{font: 12px/2 "";display: block;float: left;margin: 0 8px;color: #000;}
+
+header{width: 100%;height:100%;background: #e0e0e0;}
+header .margin{display: flex;justify-content: space-between;position: relative;}
+header .logo{width: 132px;}
+header .search{margin-top: 15px;width: 460px;}
+header .search form{height: 32px;position: relative;z-index: 999;}
+header .search form .txt{padding-left:20px;float:left;width:380px;height: 32px;border: 1px solid #128449;font: 16px/2 "";background: #e0e0e0;}
+header .search form .sear{float: left;width: 52px;height: 34px;border: 1px solid #128449;font: 16px/2 "";background: #128449;color: #fff;}
+header .search form ul{background: #fff;width:400px;}
+header .search form ul li{font: 14px/2 "";margin-left: 20px;}
+header .search .list{font: 16px/2 "";color: #444;}
+header .search .list li{float: left;margin: 0 10px;}
+
+header .pay{width: 200px;height: 50px;border: 1px solid #000;background: #fff;font: 30px/50px "";color: #128449;text-align: center;margin-top: 15px;}
+header .pay1{width:300px;height: 200px;position: absolute;z-index: 1;right: 100px;background: #fff;top:67px;display: none;}
+header .pay1 p{font: 14px/200px "";color: #444;text-align: center;}
+
+#friend{width: 100%;height: 100%;padding: 30px 0;}
+#friend .margin{display: flex;justify-content: space-around;}
+#friend dt{background: url(../images/friend.png) no-repeat left;background-size: 23px 23px;font: 14px/52px "";color: #444;padding-left: 35px;}
+#friend dd{font: 12px/2 "";color:#575556;border-left: 1px dashed #444;padding-left: 35px;}
+
+
+
+footer{font: 12px/2 "";color: #999;text-align: center;padding: 10px 0;}
+footer .te{color: #128449;}
